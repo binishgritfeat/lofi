@@ -20,8 +20,8 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Build web
-        run: flutter build web --release --base-href /lofi_cursor_demo/
+      - name: Build web 
+        run: flutter build web --release --base-href /lofi/
 
       - name: Deploy to GitHub Pages 
         uses: peaceiris/actions-gh-pages@v4
